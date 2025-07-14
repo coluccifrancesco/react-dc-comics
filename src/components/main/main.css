@@ -12,4 +12,13 @@ main{
 
 .infos{
     background-color: var(--bg-secundary);
+
+    a{
+        font-size: 0.8rem;
+        color: var(--usually-white);
+    }
+
+    img{
+        height: 55px;
+    }
 }

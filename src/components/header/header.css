@@ -22,9 +22,9 @@ header{
             &:hover{
                 color: var(--secundary);
                 cursor: pointer;
-                padding-bottom: 50px;
-                margin-bottom: -48px;
-                border-bottom: 3px solid var(--secundary);
+                padding-bottom: 48px;
+                margin-bottom: -47px;
+                border-bottom: 4px solid var(--secundary);
             }
         }
     }
