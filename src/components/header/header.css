@@ -1,8 +1,31 @@
 :root{
     --usually-white: #FFFFFF;
     --usually-black: #000000;
+    --secundary: #0482F9;
 }
 
 header{
     background-color: var(--usually-white);
+
+    img{
+        height: 75px;
+    }
+
+    ul{
+        list-style: none;    
+        
+        li{
+            margin-left: 20px;
+            font-weight: 700;
+            border-bottom: 5px solid transparent;
+            
+            &:hover{
+                color: var(--secundary);
+                cursor: pointer;
+                padding-bottom: 50px;
+                margin-bottom: -48px;
+                border-bottom: 3px solid var(--secundary);
+            }
+        }
+    }
 }
