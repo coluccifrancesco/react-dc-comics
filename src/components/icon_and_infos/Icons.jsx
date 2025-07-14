@@ -1,5 +1,3 @@
-import './icons.css';
-
 export default function Icons(){
     return(
         <div className='infos'>
