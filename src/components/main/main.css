@@ -1,0 +1,15 @@
+:root{
+    --bg-primary: #1c1c1c;
+    --bg-secundary: #0482F9;
+    --usually-white: #FFFFFF;
+    --usually-black: #000000;
+}
+
+main{
+    background-color: var(--bg-primary);
+    color: var(--usually-white);
+}
+
+.infos{
+    background-color: var(--bg-secundary);
+}

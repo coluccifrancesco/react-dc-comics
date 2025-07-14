@@ -1,0 +1,8 @@
+:root{
+    --usually-white: #FFFFFF;
+    --usually-black: #000000;
+}
+
+header{
+    background-color: var(--usually-white);
+}

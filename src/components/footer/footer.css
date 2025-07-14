@@ -1,0 +1,10 @@
+:root{
+    --bg-primary: #303030;
+    --usually-white: #FFFFFF;
+    --usually-black: #000000;
+}
+
+footer{
+    background-color: var(--bg-primary);
+    color: var(--usually-white);
+}
