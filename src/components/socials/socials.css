@@ -19,5 +19,39 @@
                 border: 2px solid var(--usually-white);
             }
         }
+
+        h4{
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--accent);
+
+            &:hover{
+                color: var(--usually-white);
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            &:active{
+                text-decoration: underline;
+            }
+        }
+
+        img{
+            height: 30px;
+            border-radius: 50%;
+            
+            &:hover{
+                transition: 0.2s;
+                height: 32px;
+                cursor: pointer;
+                box-shadow: 0 0 4px var(--usually-white);
+            }
+
+            &:active{
+                height: 28px;
+                margin: 0 2px;
+            }
+        }
     }
 }
