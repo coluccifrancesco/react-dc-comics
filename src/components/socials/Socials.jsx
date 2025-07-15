@@ -3,7 +3,7 @@ import './socials.css';
 export default function Socials() {
     return(
         <div className='bg'>
-            <div className='container-sm container-md container-lg container-xl d-flex justify-content-between align-items-center pt-4 pb-4 social'>
+            <div className='container-sm container-md container-lg container-xl d-flex justify-content-between align-items-center pt-4 pb-4 socials'>
                 <button className='sign'>SIGN-UP NOW!</button>
                 <div className='d-flex justify-content-between align-items-center'>
                     <h4>FOLLOW US</h4>

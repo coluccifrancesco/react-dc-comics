@@ -8,8 +8,4 @@
 
 footer{
     color: var(--usually-white);
-
-    .bg{
-        background-color: var(--bg-primary);
-    }
 }

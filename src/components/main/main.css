@@ -14,11 +14,23 @@ main{
     background-color: var(--bg-secundary);
 
     a{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        text-decoration: none;
         color: var(--usually-white);
-    }
 
+        &:hover{
+            text-decoration: underline;
+            transition: 0.2s;
+            margin-left: 5px;
+        }
+
+        &:hover img{
+            margin-right: 5px;
+        }
+
+    }
+    
     img{
-        height: 55px;
+        height: 50px;
     }
 }

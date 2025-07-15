@@ -9,11 +9,11 @@ const infoItems = [
 export default function Icons(){
 
     return(
-        <div className='infos d-flex flex-column justify-content-between align-items-center pt-4 pb-4'>
-            <div className="row">
+        <div className='infos py-5'>
+            <div className="row mx-auto container-sm container-md container-lg container-xl d-flex justify-content-between align-items-center">
                 
                 {infoItems.map((item) => {
-                    return <div className="col" key={item.key}>
+                    return <div className="col d-flex justify-content-center align-items-center gap-2" key={item.key}>
                         <img src={item.imgSrc} alt={item.alt} />
                         <a href={item.href}>{item.text}</a>
                     </div>
