@@ -7,3 +7,27 @@
 .bg{
     background-color: var(--bg-primary);
 }
+
+.loadDiv{
+    background-color: var(--bg-primary);
+    padding: 15px;
+
+    .load{
+        background-color: var(--bg-secundary);
+        color: var(--usually-white);
+        padding: 5px 50px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        border: 2px solid transparent;
+
+        &:hover{
+            transition: 0.15s;
+            border: 2px solid var(--usually-white);
+        }
+
+        &:active{
+            color: var(--bg-secundary);
+            background-color: var(--usually-white);
+        }
+    }
+}

@@ -17,6 +17,9 @@ export default function Comics() {
             <Cards />
 
             {/* bottone */}
+            <div className='loadDiv d-flex justify-content-center align-items-center'>
+                <button className='load'>LOAD MORE</button>
+            </div>
         </section>
     )
 }
