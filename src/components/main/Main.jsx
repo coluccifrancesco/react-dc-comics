@@ -1,12 +1,12 @@
 import './main.css';
-import Icons from '../icon_and_infos/Icons'
+import Icons from '../icon_and_infos/Icons';
+import Comics from '../comics/Comics';
 
 export default function Main(){
     return(
         <main>
-            <div className='container-sm container-md container-lg container-xl d-flex flex-column justify-content-center align-items-center'>
-                <h2>-- Content goes here --</h2>
-            </div>
+            <Comics />
+            
             <Icons />
         </main>
     )

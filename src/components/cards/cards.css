@@ -1,0 +1,18 @@
+:root{
+    --usually-white: #FFFFFF;
+}
+
+.comicImg{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+ul{
+    list-style: none;
+
+    p{
+        font-size: 0.7rem;
+    }
+}

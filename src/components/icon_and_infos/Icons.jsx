@@ -1,3 +1,5 @@
+import './icons.css';
+
 const infoItems = [
     {imgSrc:'../../../public/buy-comics-digital-comics.png', alt:'DIGITAL COMICS', text:'DIGITAL COMICS', href:'#', key:1},
     {imgSrc:'../../../public/buy-comics-merchandise.png', alt:'DC MERCHANDISE', text:'DC MERCHANDISE', href:'#', key:2},
