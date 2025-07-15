@@ -23,11 +23,6 @@ main{
             transition: 0.2s;
             margin-left: 5px;
         }
-
-        &:hover img{
-            margin-right: 5px;
-        }
-
     }
     
     img{

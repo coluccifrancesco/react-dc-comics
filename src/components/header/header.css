@@ -1,7 +1,7 @@
 :root{
     --usually-white: #FFFFFF;
     --usually-black: #000000;
-    --secundary: #0482F9;
+    --secundary-color: #0482F9;
 }
 
 header{
@@ -11,20 +11,32 @@ header{
         height: 75px;
     }
 
-    ul{
-        list-style: none;    
+    .list{
+        list-style: none;   
         
         li{
             margin-left: 20px;
             font-weight: 700;
-            border-bottom: 5px solid transparent;
-            
-            &:hover{
-                color: var(--secundary);
-                cursor: pointer;
-                padding-bottom: 48px;
-                margin-bottom: -47px;
-                border-bottom: 4px solid var(--secundary);
+            padding-top: 4px;
+            border-bottom: 4px solid transparent;
+
+            .navItem{
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                color: var(--usually-black);
+                text-decoration: none;
+                
+                &:hover{
+                    color: var(--secundary-color);
+                    cursor: pointer;
+                    padding-bottom: 48px;
+                    border-bottom: 4px solid var(--secundary-color);
+                }
+                
+                &:active{
+                    transition: 0.2s;
+                    border-bottom: 4px solid transparent;
+                }
             }
         }
     }

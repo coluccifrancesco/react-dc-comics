@@ -100,9 +100,9 @@ export default function Navigation() {
                         </ul>
                 </div>
                     
-                {/* <div className='col-6 d-flex justify-content-center align-items-center'>
+                {<div className='col-6 d-flex justify-content-center align-items-center'>
                     <img src='../../../public/dc-logo-bg.png' className='logo' />
-                </div> */}
+                </div>}
             </div>
         </div>
     )
