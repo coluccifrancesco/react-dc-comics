@@ -3,41 +3,33 @@
     --usually-white: #FFFFFF;
     --usually-black: #000000;
     --secundary: #8D8D8D;
+    --accent:#0582F9;
 }
 
 footer{
-    background-color: var(--bg-primary);
     color: var(--usually-white);
-    background-image: url('../../../public/footer-bg.jpg');
-    background-repeat: repeat-x;
-    background-position: center;
-    position: relative;
 
-    ul{
-        list-style: none;
+    .bg{
+        background-color: var(--bg-primary);
+    }
+    
+    .social{
 
-        li{
-            color: var(--secundary);
+        .sign{
+            background-color: transparent;
+            border: 2px solid var(--accent);
+            color: var(--usually-white);
+            padding: 15px;
+            transition: 0.15s;
 
-            h4{
-                margin: 20px auto;
-                color: var(--usually-white);
-                font-size: 1.2rem;
-            }
-
-            a{
-                font-size: 0.8rem;
-                cursor: pointer;
+            &:hover{
+                background-color: #0582F9;
             }
             
-            &:hover{
-                color: var(--usually-white);
+            &:active{
+                border: 2px solid var(--usually-white);
             }
         }
     }
 
-    .logo{
-        position: absolute;
-        height: 450px;
-    }
 }

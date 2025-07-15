@@ -1,0 +1,37 @@
+    .links{
+        background-image: url('../../../public/footer-bg.jpg');
+        background-repeat: repeat-x;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        z-index: -1;
+
+        ul{
+            list-style: none;
+    
+            li{
+                color: var(--secundary);
+    
+                h4{
+                    margin: 20px auto;
+                    color: var(--usually-white);
+                    font-size: 1.2rem;
+                }
+    
+                a{
+                    font-size: 0.8rem;
+                    cursor: pointer;
+                }
+                
+                &:hover{
+                    color: var(--usually-white);
+                }
+            }
+        }
+    
+        .logo{
+            position: absolute;
+            height: 550px;
+            object-fit: cover;
+        }
+    }
