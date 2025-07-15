@@ -5,7 +5,7 @@ export default function Navigation() {
         <div className='links'>
             <div className='row container-sm container-md container-lg container-xl pt-4 pb-4 mt-0 mb-0 ms-auto me-auto'>
                 <div className='col-6 row  d-flex justify-content-between'>
-                        <ul className='col col-4'>
+                        <ul className='col col-4 list'>
                             <li>
                                 <h4>DC COMICS</h4>
                             </li>
@@ -40,7 +40,7 @@ export default function Navigation() {
                                 <a>Shop DC Collectibles</a>
                             </li>
                         </ul>
-                        <ul className='col col-4'>
+                        <ul className='col col-4 list'>
                             <li>
                                 <h4>DC</h4>
                             </li>
@@ -78,7 +78,7 @@ export default function Navigation() {
                                 <a>Contact Us</a>
                             </li>
                         </ul>
-                        <ul className='col col-4'>
+                        <ul className='col col-4 list'>
                             <li>
                                 <h4>SITES</h4>
                             </li>
