@@ -8,6 +8,23 @@
     background-color: var(--bg-primary);
 }
 
+.jumbotron{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.currentSeries{
+    margin-top: -16px;
+
+    h5{
+        font-weight: 700;
+        background-color: var(--bg-secundary);
+        padding: 5px 20px;
+    }
+}
+
 .loadDiv{
     background-color: var(--bg-primary);
     padding: 15px;
@@ -21,6 +38,7 @@
         border: 2px solid transparent;
 
         &:hover{
+            cursor: pointer;
             transition: 0.15s;
             border: 2px solid var(--usually-white);
         }
