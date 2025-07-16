@@ -1,8 +1,8 @@
-import './comics.css';
+import './comics_grid.css';
 import Cards from '../cards/Cards';
 const bgImg = '../../../public/jumbotron.jpg';
 
-export default function Comics() {
+export default function Comics_grid() {
     return(
         <section>
 

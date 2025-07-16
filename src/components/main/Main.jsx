@@ -1,11 +1,11 @@
 import './main.css';
 import Icons from '../icon_and_infos/Icons';
-import Comics from '../comics/Comics';
+import Comics_grid from '../comics_grid/Comics_grid';
 
 export default function Main(){
     return(
         <main>
-            <Comics />
+            <Comics_grid />
             
             <Icons />
         </main>
