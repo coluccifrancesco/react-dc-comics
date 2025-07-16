@@ -7,7 +7,7 @@ export default function Main(){
         <main>
             <Comics_grid />
             
-            <Icons />
+            <Icons img='${infoItems.imgSrc}' altP='{infoItems.alt}' text='{infoItems.text}' link='{infoItems.href}' key='{infoItems.key}'/>
         </main>
     )
 }

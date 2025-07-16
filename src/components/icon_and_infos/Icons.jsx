@@ -14,10 +14,13 @@ export default function Icons(){
         <div className='infos py-5'>
             <div className="row mx-auto container-sm container-md container-lg container-xl d-flex justify-content-between align-items-center">
                 
-                {infoItems.map((item) => {
-                    return <div className="col d-flex justify-content-center align-items-center gap-2" key={item.key}>
-                        <img src={item.imgSrc} alt={item.alt} />
-                        <a href={item.href}>{item.text}</a>
+                {infoItems.map((props) => {
+                    const {imgSrc, altP, text, link, key} = props;
+                    console.log(props);
+
+                    return <div className="col d-flex justify-content-center align-items-center gap-2" key={key}>
+                        <img src={imgSrc} alt={altP} />
+                        <a href={link}>{text}</a>
                     </div>
                 })}
             
