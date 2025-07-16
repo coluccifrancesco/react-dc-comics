@@ -16,3 +16,25 @@ ul{
         font-size: 0.7rem;
     }
 }
+
+.card-cont:hover{
+    cursor: pointer;
+    margin-top: -15px;
+    
+    .comicImg{
+        transition: 0.2s;
+        height: 130px;
+        width: 130px;
+    }
+}
+
+.card-cont-alt:hover{
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+    .comicImg{
+        transition: 0.2s;
+        height: 130px;
+        width: 130px;
+    }
+}
