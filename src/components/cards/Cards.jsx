@@ -19,7 +19,7 @@ export default function Cards(){
                 return <li className='col col-xs-12 col-sm-6 col-md-4 col-lg-2' key={comic.id}>
                     <div className={cardClass}>
                         <img src={comic.thumb} className='comicImg' alt={comic.title} />
-                        <p className='mx-auto mt-2'>{comic.title}</p>
+                        <p className='mt-2'>{comic.title}</p>
                     </div>
                 </li>
             })}
