@@ -17,7 +17,7 @@ export default function Comics_grid() {
 
             {/* griglia row col comics backgground color bg-primary 
             e margine  */}
-            <Cards />
+            <Cards id='{comics.id}' thumb='{comics.thumb}' title='{comics.title}' />
 
             {/* bottone */}
             <div className='loadDiv d-flex justify-content-center align-items-center'>
